@@ -8,11 +8,11 @@ class Program
 
     static void Main(string[] args)
     {
-        GetCoinValues();
+        GetHolidays();
     }
 
 
-    static void GetCoinValues()
+    static void GetHolidays()
     {
         string[] Veriler;
         using (WebClient wc=new WebClient()) { 
